@@ -1,0 +1,239 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    padding-top: 1rem;
+    background-color: #ffffff;
+}
+
+/* -----------------   Navigation   ----------------- */
+.navbar {
+    background-color: #fff;
+}
+
+.navbar img {
+    height: 50px;
+    padding-left: 30px;
+}
+
+.navbar-nav li {
+    padding: 0 5px;
+}
+
+.navbar-nav li a {
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-item {
+    color: #666666;
+    padding-top: .8rem;
+}
+
+.navbar-light .navbar-nav .nav-cta  {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav .btn-light {
+    color: #fff;
+    background-color: #0393A7;
+    border-radius: .4rem;
+}
+
+.navbar .navbar-nav .btn-light:hover {
+  color: #fff;
+  background-color: #03a792;
+}
+
+/* -----------------   Hero Section #0393A7 #03a792  ----------------- */
+.jumbotron {
+    background-image: url('images/hero_image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding-top: 17%;
+    padding-bottom: 17%;
+    color: #fff;
+    filter: grayscale(35%);
+}
+
+.jumbotron .btn-lg {
+    color: #fff;
+    background-color: #0393A7;
+    border: none;
+}
+
+.jumbotron .btn-lg:hover {
+    background-color: #03a792;
+    text-decoration: none;
+}
+
+/* -----------------   Welcome Section  ----------------- */
+.welcome {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+
+/* -----------------   Newsletter Sign Up Section  ----------------- */
+.newsletter {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    background-color: #4bbdcd;
+}
+
+.newsletter_text {
+    font-style: italic;
+}
+
+.newsletter .btn-primary {
+    color: #fff;
+    background-color: #038294;
+    border: none;
+}
+
+.newsletter .btn-primary:hover {
+    background-color: #03a792;
+    text-decoration: none;
+}
+
+/* -----------------   Services Section  ----------------- */
+.services {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-color: #eef8f9;
+}
+
+.services .item{
+	position: relative;
+	overflow: hidden;
+}
+
+.services .des{
+	background: #0393A7;
+	color: #fff;
+	text-align: center;
+	border-top-right-radius: 90%;
+	transition:.3s ease-in-out;
+	position: absolute;
+	width: 89%;
+	bottom: 0px;
+}
+
+.services .item:hover .des{
+	height: 100%;
+	background:#0393A77d;
+    padding: 70px 0;
+    text-align: center;
+	top: 0;
+	border-top-right-radius: 0;
+	font-size: 1.5rem;
+}
+
+/* -----------------   Partners Section  ----------------- */
+.partners {
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+}
+
+.card-deck {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    text-align: justify;
+}
+
+
+.card-img-top {
+    filter: grayscale(75%);
+    max-height: 20rem;
+}
+
+.card-title {
+    text-align:center;
+}
+
+.card-footer {
+    text-align:center;
+    font-size: 1rem;
+}
+
+.card .btn-lg {
+    color: #fff;
+    background-color: #0393A7;
+    border: none;
+}
+
+.card .btn-lg:hover {
+
+    background-color: #03a792;
+    text-decoration: none;
+}
+
+
+/* -----------------   Carousel Section  ----------------- */
+.carousel{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #4bbdcd;
+}
+.carousel-inner{
+  height: 100px;
+}
+.carousel-caption{
+  font-style: italic;
+  top: 50%;
+  bottom: 50%;
+}
+
+/* -----------------   Contact Us Section  ----------------- */
+.contactus {
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+}
+
+.contactus .btn {
+    color: #fff;
+    background-color: #0393A7;
+    border: none;
+}
+
+.contactus .btn:hover {
+  background-color: #03a792;
+  text-decoration: none;
+}
+
+.contactus .input-group-btn {
+    padding-left: 1rem;
+}
+
+.contactus-input {
+    padding-bottom: 1rem;
+}
+
+#contactsubmitbtn {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+
+#contactusheader {
+    padding-top: .5rem;
+}
+
+/* -----------------   Footer Section  ----------------- */
+footer {
+    background-color: #eef8f9;
+    padding-top: 2rem;
+}
+
+a.dark-grey-text {
+    color: #666666;
+    text-decoration: none;
+}
+
+a.footericon {
+    color: #0393A7;
+    text-decoration: none;
+}
