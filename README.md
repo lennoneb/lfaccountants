@@ -20,7 +20,8 @@ Initial wireframe mock-ups were developed on Balsamiq. See [here](https://drive.
 ### Existing Features  
 * Feature 1 – Booking form – allows users to submit their contact details with a message to the firm requesting a consultation meeting
 * Feature 2 – Newsletter signup - allows users to sign up to the firm’s newsletter, thereby creating a leads list for the firm and allow external users who are not yet ready to commit to an appointment, to warm up to the firm’s services and assess them in part based on the quality of the newsletter
-* ### Features Left to Implement
+
+### Features Left to Implement
 * Replace the image in welcome section with a video created by the firm featuring members of it’s team, giving a brief overview of the firm, what it does and who it’s for. Once developed change this from hidden when looking on a mobile to visible.
 * Link in book an appointment buttons to calendly service or similar
 * Link in backend to newsletter sign up to newsweaver service or similar
