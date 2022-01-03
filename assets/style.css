@@ -93,6 +93,7 @@ body {
     color: #fff;
     background-color: #038294;
     border: none;
+    width: 20%;
 }
 
 .newsletter .btn-primary:hover {
@@ -105,6 +106,8 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+
 
 /* -----------------   Services Section  ----------------- */
 .services {
@@ -234,7 +237,7 @@ body {
 /* -----------------   Service Page  ----------------- */
 
 .servicesalone {
-    padding-top: 5rem;
+    padding-top: 10rem;
     padding-bottom: 5rem;
 }
 
