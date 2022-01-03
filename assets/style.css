@@ -1,5 +1,5 @@
 body {
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
     font-family: 'Roboto', sans-serif;
     color: #666666;
     padding-top: 1rem;
@@ -43,6 +43,7 @@ body {
 .navbar .navbar-nav .btn-light:hover {
   color: #fff;
   background-color: #03a792;
+  text-decoration: underline;
 }
 
 /* -----------------   Hero Section #0393A7 #03a792  ----------------- */
@@ -61,11 +62,12 @@ body {
     color: #fff;
     background-color: #0393A7;
     border: none;
+    text-decoration: none;
 }
 
 .jumbotron .btn-lg:hover {
     background-color: #03a792;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /* -----------------   Welcome Section  ----------------- */
@@ -98,6 +100,12 @@ body {
     text-decoration: none;
 }
 
+#newslettersignup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* -----------------   Services Section  ----------------- */
 .services {
     padding-top: 8rem;
@@ -121,10 +129,12 @@ body {
 	bottom: 0px;
 }
 
+
 .services .item:hover .des{
 	height: 100%;
 	background:#0393A77d;
-    padding: 70px 0;
+    padding: 80px 0;
+    width: 93%;
     text-align: center;
 	top: 0;
 	border-top-right-radius: 0;
@@ -137,12 +147,11 @@ body {
     padding-bottom: 4rem;
 }
 
-.card-deck {
+.card-group {
     padding-left: 5rem;
     padding-right: 5rem;
     text-align: justify;
 }
-
 
 .card-img-top {
     filter: grayscale(75%);
@@ -162,12 +171,12 @@ body {
     color: #fff;
     background-color: #0393A7;
     border: none;
+    text-decoration: none;
 }
 
 .card .btn-lg:hover {
-
     background-color: #03a792;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 
@@ -221,6 +230,15 @@ body {
 #contactusheader {
     padding-top: .5rem;
 }
+
+/* -----------------   Service Page  ----------------- */
+
+.servicesalone {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+
 
 /* -----------------   Footer Section  ----------------- */
 footer {
