@@ -8,7 +8,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
-    <script src="https://use.fontawesome.com/64ce42feb7.js"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <!-- Google font -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
 
@@ -19,14 +21,14 @@
 <body>
   <!-- Navigation -->
       <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-          <a class="navbar-brand" href="#"><img src="assets/images/logo_image.png"></a>
+          <a class="navbar-brand" href="index.html"><img src="assets/images/logo_image.png" href="index.html"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
               <ul class="navbar-nav ms-auto">
                   <li class="nav-item active">
-                      <a class="nav-link" href="#home">Home</a>
+                      <a class="nav-link" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link" href="services.html">Services</a>
@@ -98,10 +100,10 @@
                               <input type="email" class="form-control mb-2" id="inlineFormInput" placeholder="Your email">
                           </div>
                           </div>
-                          <div class="row"
-                          <div class="col">
-                              <button type="submit" class="btn btn-primary mb-2">Subscribe Now</button>
-                        </div>
+                          <div class="row-auto text-center">
+                          <div class="col-auto ">
+                              <button type="submit" class="btn btn-primary mb-2 text-center" onclick="alert('Thank you for signing up!')">Subscribe</button>
+                          </div>
                       </div>
                   </form>
 
@@ -115,27 +117,27 @@
                   <h1 class="text-center">Our Services</h1>
                   <div class="row text-center">
                       <div class="col-lg-3 col-md-3 col-sm-12 item">
-                          <img src="assets/images/services-1.jpeg" class="img-fluid" alt="service" href="aboutus.html">
+                          <img src="assets/images/services-1.jpeg" class="img-fluid" alt="service" href="services.html">
                           <div class="des">
-                              Accounting
+                              <a href="services.html" id="serviceanchor">Accounting</a>
                           </div>
                       </div>
                       <div class="col-lg-3 col-md-3 col-sm-12 item">
-                          <img src="assets/images/services-2.jpeg" class="img-fluid" alt="service">
+                          <img src="assets/images/services-2.jpeg" class="img-fluid" alt="service" >
                           <div class="des">
-                              Tax
+                              <a href="services.html" id="serviceanchor">Tax</a>
                           </div>
                       </div>
                       <div class="col-lg-3 col-md-3 col-sm-12 item">
-                          <img src="assets/images/services-3.png" class="img-fluid" alt="service">
+                          <img src="assets/images/services-3.png" class="img-fluid" alt="service" href="services.html">
                           <div class="des">
-                              Compliance
+                              <a href="services.html" id="serviceanchor">Compliance</a>
                           </div>
                       </div>
                       <div class="col-lg-3 col-md-3 col-sm-12 item">
-                          <img src="assets/images/services-4.jpeg" class="img-fluid" alt="service">
+                          <img src="assets/images/services-4.jpeg" class="img-fluid" alt="service" href="services.html">
                           <div class="des">
-                              Internal Audit
+                              <a href="services.html" id="serviceanchor">Internal Audit</a>
                           </div>
                       </div>
                   </div>
@@ -153,7 +155,7 @@
                         <p class="card-text">A real people person, Sarah helps organisations to cut through complexity and orientate towards success, with a particular focus on revenue generation. As well as being a qualified accountant, Sarah holds a diploma in Employment Law from Kings Inns.</p>
                       </div>
                       <div class="card-footer">
-                        <a class="btn btn-primary btn-lg btn-link" href="contact.html" role="button">Talk to Sarah</a>
+                        <a class="btn btn-primary btn-lg btn-link" href="mailto:sarah@lennonfitzgerald.ie" role="button">Talk to Sarah</a>
                       </div>
                   </div>
                   <div class="card">
@@ -163,7 +165,7 @@
                         <p class="card-text">A Chartered Accountant and self taught tech geek, Liam has over 20 years experience as a senior practitioner. Whatever challenges you're having, Liam has seen some form of it and will help you manage your organisation efficiently and effectively.</p>
                       </div>
                       <div class="card-footer">
-                        <a class="btn btn-primary btn-lg btn-link" href="contact.html" role="button">Talk to Liam</a>
+                        <a class="btn btn-primary btn-lg btn-link" href="mailto:liam@lennonfitzgerald.ie" role="button">Talk to Liam</a>
                       </div>
                   </div>
                   <div class="card">
@@ -173,7 +175,7 @@
                 <p class="card-text">Technical and thorough, Will is one of Europe's leading experts in internal audit and forensic accounting. With over 15 years experience, Will works fast to get to the bottom of any problems with a solution hand-in-hand solutions based approach.</p>
               </div>
               <div class="card-footer">
-                <a class="btn btn-primary btn-lg btn-link" href="contact.html" role="button">Talk to Will</a>
+                <a class="btn btn-primary btn-lg btn-link" href="mailto:will@lennonfitzgerald.ie" role="button">Talk to Will</a>
               </div>
             </div>
                   <div class="card">
@@ -183,7 +185,7 @@
                         <p class="card-text">Reliable, accurate and not to mention a wicked sense of humour. Caroline is our Payroll and Compliance expert. With Caroline you'll know you're in safe hands. Talk to Caroline about how she can take the hassle out of payroll and compliance matters </p>
                       </div>
                       <div class="card-footer">
-                        <a class="btn btn-primary btn-lg btn-link" href="contact.html" role="button">Talk to Caroline</a>
+                        <a class="btn btn-primary btn-lg btn-link" href="mailto:caroline@lennonfitzgerald.ie" role="button">Talk to Caroline</a>
                       </div>
                   </div>
               </div>
@@ -191,7 +193,7 @@
 
 
       <!-- Testimonials section -->
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+     <div id="carousetestimonials" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
               <div class="carousel-item active">
                   <div class="carousel-caption">
@@ -212,15 +214,17 @@
                   </div>
               </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-          </a>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousetestimonials" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousetestimonials" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
       </div>
+
+
 
       <!-- Footer -->
       <footer class="page-footer font-small blue-grey lighten-5">
@@ -238,16 +242,16 @@
                       <h6 class="text-uppercase font-weight-bold">Services</h6>
                       <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                       <p>
-                          <a class="dark-grey-text" href="#services">Accounting</a>
+                          <a class="dark-grey-text" href="services.html">Accounting</a>
                       </p>
                       <p>
-                          <a class="dark-grey-text" href="#services">Tax</a>
+                          <a class="dark-grey-text" href="services.html">Tax</a>
                       </p>
                       <p>
-                          <a class="dark-grey-text" href="#services">Compliance</a>
+                          <a class="dark-grey-text" href="services.html">Compliance</a>
                       </p>
                       <p>
-                          <a class="dark-grey-text" href="#services">Internal Audit</a>
+                          <a class="dark-grey-text" href="services.html">Internal Audit</a>
                       </p>
                   </div>
 
