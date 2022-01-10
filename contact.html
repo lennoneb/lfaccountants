@@ -18,7 +18,7 @@
   <body>
       <!-- Navigation -->
           <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-              <a class="navbar-brand" href="index.html"><img src="assets/images/logo_image.png"></a>
+              <a class="navbar-brand" href="index.html"><img src="assets/images/logo_image.png" alt="LF"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
               </button>
@@ -46,10 +46,11 @@
       	<div class="container">
       		<div class="row">
       			<div class="col-lg-6 col-md-12">
-      				<img src="assets/images/contact_us.jpeg" class="img-fluid">
+      				<img src="assets/images/contact_us.jpeg" class="img-fluid" alt="Contact Us">
       			</div>
-      			<div class="col-lg-6 col-md-12 col-sm-12 intro text-center" action="/action_page.php" method="post" action="mailto:x21130337@student.ncirl.ie" >
+      			<div class="col-lg-6 col-md-12 col-sm-12 intro text-center">
       		    <h2 id="contactusheader">Contact Us</h2>
+            <form name="form1" method="post" action="mailto:x21130337@student.ncirl.ie">
               <div class="text-left">
         			  <div class="input-group contactus-input">
                    <input type="text" class="form-control" placeholder="Enter your Name" required>
@@ -71,10 +72,11 @@
                 <textarea class="form-control" aria-label="With textarea" placeholder="We'll call you to set up the appointment, but if there's anything you want us to know first, enter it here."></textarea>
               </div>
               <div class="text-center">
-              <button class="btn btn-primary contact_us" id="contactsubmitbtn" type="submit" onclick="alert('Thank you for getting in touch! One of our team will be in touch with you shortly.')">Submit</button>
+              <button class="btn btn-primary contact_us" id="contactsubmitbtn" type="submit" onclick="alert('Thank you for getting in touch! One of our team will be in touch with you shortly.')" >Submit</button>
               </div>
       		</div>
-      	</div>
+            </form>
+         </div>
       </div>
       </div>
       </div>

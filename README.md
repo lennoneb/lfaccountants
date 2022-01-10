@@ -29,7 +29,7 @@ Initial wireframe mock-ups were developed on Balsamiq. See [here](https://drive.
 
 <!-------------  Tech used ------------->
 ## Technologies Used
-Languages, frameworks, libraries, and any other tools  used to construct this project. 
+Languages, frameworks, libraries, and any other tools  used to construct this project.
 * HTML
 * CSS
 * [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
@@ -39,13 +39,17 @@ The project uses JQuery to provide a navbar and a testimonial carousel.
 <!------------- Testing ------------->
 ## Testing
 The following tests were performed:
+* All four pages HTML were validated on https://validator.w3.org/nu/#file
+* CSS Style page was validated on https://jigsaw.w3.org/css-validator/validator with no errors found
+* Optimised via Google Page Speed ranking with an excellent result for desktop and a very good result for mobile. There is scope to further improve mobile by adjusting image sizes.
+
 * Potential clients
     * Walkthrough of book now / talk to us appointments
         * Each click goes to contact us form ✔️
         * Tried to submit empty form and verified that an error message about the required fields appears ✔️
         * Tried to submit the form with an invalid email address and verified that a relevant error message appears ✔️
         * Tried to submit the form with all inputs valid and verify that a success message appears ✔️
-    * Walkthrough of newsletter subscription 
+    * Walkthrough of newsletter subscription
         * Tried to submit the field with an invalid email address and verified that a relevant error message appears ✔️
         * Tried to submit the field with all inputs valid and verify that a success message appears ✔️
 * Existing clients
